@@ -4,6 +4,7 @@
   "description": "Simple PDF creator functions using node ecosystem and headless browser called puppeteer.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Mohammad-Mesbaul-Haque/Node-Js-PDF-Creator/issues"
   },
-  "homepage": "https://github.com/Mohammad-Mesbaul-Haque/Node-Js-PDF-Creator#readme"
+  "homepage": "https://github.com/Mohammad-Mesbaul-Haque/Node-Js-PDF-Creator#readme",
+  "dependencies": {
+    "puppeteer": "^12.0.1"
+  }
 }
